@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "color-tree"
+version = "0.1.0"
+authors = [
+  { name="Abdullah Askarov" }
+]
+description = "A lightweight CLI tool and Python module to display directory trees with file sizes and colored output."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "colorama>=0.4.6",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Abdullah-dev394/color-tree"
+
+[tool.setuptools.packages.find]
+where = ["."]
