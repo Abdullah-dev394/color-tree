@@ -12,4 +12,4 @@
 ## Installation
 
 ```bash
-pip install color-tree
+pip install git+https://github.com/Abdullah-dev394/color-tree.git
