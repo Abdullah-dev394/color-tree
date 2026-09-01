@@ -13,3 +13,10 @@
 
 ```bash
 pip install git+https://github.com/Abdullah-dev394/color-tree.git
+
+## Quick Start
+
+```bash
+from color_tree import get_path_tree
+
+get_path_tree(".")
