@@ -13,6 +13,7 @@
 
 ```bash
 pip install git+https://github.com/Abdullah-dev394/color-tree.git
+```
 
 ## Quick Start
 
